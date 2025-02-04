@@ -3,42 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI RECIPE GENERATOR</title>
   </head>
   <body>
-
     <div class="container">
-    <header>
-      <h1>CHEESECAKE RECIPE GENERATOR</h1>
-    </header>
+      <header>
+        <h1>CHEESECAKE RECIPE GENERATOR</h1>
+      </header>
 
-    <main>
-      <form>
-        <input type="text" placeholder="enter-flavour" 
-        autofocus 
-        required autocomplete="off" class="instructions"/>
-        <input type="submit"  class="submit-button"/>
-      </form>
-      <div class="poem">
-        the recipe here
-        <br />
-        the recipe here
-      </div>
-    </main>
+      <main>
+        <form id="recipe-generator-form">
+          <input
+            type="text"
+            placeholder="enter-flavour"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem" id="recipe"></div>
+      </main>
 
-    <footer>
-      This AI project was coded with ❤️ by
-      <a href="https://github.com/Girl-arthope" target="_blank">Tariro</a> and
-      is open sourced on
-      <a
-        href="https://github.com/Girl-arthope/CHEESECAKE-RECIPE-GENERATOR"
-        target="_blank"
-      >
-        Github</a
-      >
-    </footer>
-    <script src="src/index.js"></script>
-  </div>
-</body>
+      <footer>
+        This AI project was coded with ❤️ by
+        <a href="https://github.com/Girl-arthope" target="_blank">Tariro</a> and
+        is open sourced on
+        <a
+          href="https://github.com/Girl-arthope/CHEESECAKE-RECIPE-GENERATOR"
+          target="_blank"
+        >
+          Github</a
+        >
+      </footer>
+      <script src="src/index.js"></script>
+    </div>
+  </body>
 </html>
