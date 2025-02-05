@@ -27,7 +27,7 @@ function generateRecipe(event) {
 
   let recipeElement = document.querySelector("#recipe");
   recipeElement.classList.remove("hidden");
-  recipeElement.innerHTML = `<div class="generating">⏳ Generating a recipe for ${instructionsInput.value}...</div>`;
+  recipeElement.innerHTML = `<div class="generating">⏳ Generating recipe for ${instructionsInput.value} cheesecake...</div>`;
 
   axios
     .get(apiUrl)

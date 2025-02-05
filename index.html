@@ -15,10 +15,11 @@
       </header>
 
       <main>
+        <div class="form-container">
         <form id="recipe-generator-form">
           <input
             type="text"
-            placeholder="enter-flavour"
+            placeholder="enter-cheesecake-flavour"
             autofocus
             required
             autocomplete="off"
@@ -27,7 +28,9 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="poem" id="recipe"></div>
+        <div class="hint">i.e: caramel cheesecake</div>
+        <div class="recipe hidden blink" id="recipe"></div>
+    </div>
       </main>
 
       <footer>
